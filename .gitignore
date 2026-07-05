@@ -1,0 +1,72 @@
+# =========================
+# Dependencies
+# =========================
+client/node_modules/
+server/node_modules/
+
+# =========================
+# Build Output
+# =========================
+client/dist/
+server/dist/
+client/build/
+server/build/
+
+# =========================
+# Environment Variables
+# =========================
+client/.env
+client/.env.local
+client/.env.development.local
+client/.env.production.local
+
+server/.env
+server/.env.local
+server/.env.development.local
+server/.env.production.local
+
+# =========================
+# Logs
+# =========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Cache
+# =========================
+client/.vite/
+server/.vite/
+.eslintcache
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# IDE & Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Operating System Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Coverage Reports
+# =========================
+coverage/
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
